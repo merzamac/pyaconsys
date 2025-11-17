@@ -1,6 +1,8 @@
+import time
+from datetime import datetime
 from time import sleep
 
-from uiautomation import WindowControl
+from uiautomation import SendKeys, WindowControl
 
 from ...base.window import TopLevelWindow
 from .controls import MAIN_WINDOW
@@ -28,6 +30,56 @@ class MainWindow(TopLevelWindow):
 
         option_item = menu_tables.MenuItemControl(searchDepth=1, Name=option_name)
         assert option_item.GetInvokePattern().Invoke()
+
+    def change_work_period(self):
+        """
+        Abre 'Configuraciones -> Cambio Periodo de Trabajo' y selecciona el mes actual.
+        """
+        menu_name = "Configuraciones"
+        option_name = "Cambio Periodo de Trabajo	Ctrl+I"
+
+        self._window.SetActive()
+        self._window.SetTopmost(True)
+
+        menu_bar = self._window.MenuBarControl(searchDepth=1, AutomationId="MenuBar")
+
+        menu_item = menu_bar.MenuItemControl(searchDepth=1, Name=menu_name)
+        assert menu_item.GetInvokePattern().Invoke()
+
+        tablas_menu = self._window.MenuControl(searchDepth=1, Name=menu_name)
+
+        option_item = tablas_menu.MenuItemControl(searchDepth=1, Name=option_name)
+        assert option_item.GetInvokePattern().Invoke()
+
+        time.sleep(5)
+
+        ventana_mes = self._window.WindowControl(
+            searchDepth=1, Name="Cambio de Periodo de Trabajo"
+        )
+
+        panel_mes = ventana_mes.PaneControl(
+            searchDepth=1, ClassName="ImFrame3DWndClass"
+        )
+
+        cuadro_mes = panel_mes.GroupControl(searchDepth=1, ClassName="ThunderRT6Frame")
+
+        rellenar_cuadro = cuadro_mes.EditControl(searchDepth=1, AutomationId="3")
+
+        mes_actual = datetime.now().strftime("%m")
+
+        rellenar_cuadro.GetValuePattern().SetValue(mes_actual)
+
+        cuadro_año = cuadro_mes.EditControl(searchDepth=1, AutomationId="2")
+        cuadro_año.SetFocus()
+        time.sleep(0.3)
+
+        SendKeys("{TAB}")
+        time.sleep(0.5)
+        SendKeys("{ENTER}")
+
+        aceptar = ventana_mes.WindowControl(searchDepth=1, Name="ACONSYS")
+        aceptar_boton = aceptar.ButtonControl(searchDepth=1, Name="Aceptar")
+        assert aceptar_boton.GetInvokePattern().Invoke()
 
     def download_centro_costos_file(self, file_name: str) -> None:
         window = self._window.WindowControl(
