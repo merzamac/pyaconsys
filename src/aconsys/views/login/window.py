@@ -1,6 +1,8 @@
 from pathlib import Path
 from subprocess import Popen
 
+from pydantic import SecretStr
+
 from ...base.window import TopLevelWindow
 from ..main.window import MainWindow
 from .controls import CONNECT_BUTTON, LOGIN_WINDOW, PASSWORD_EDIT, USERNAME_EDIT
@@ -19,7 +21,7 @@ class LoginWindow(TopLevelWindow):
             raise ValueError("INVALID EXECUTABLE FILE PATH.")
         return super().__init__()
 
-    def login(self, usename: str, password: str) -> MainWindow:
+    def login(self, usename: str, password: SecretStr) -> MainWindow:
         """Login to ACONSYS."""
         if MainWindow.exists():
             return MainWindow()
@@ -33,7 +35,7 @@ class LoginWindow(TopLevelWindow):
         username_edit.SetValue(usename)
 
         password_edit = PASSWORD_EDIT.GetValuePattern()
-        password_edit.SetValue(password)
+        password_edit.SetValue(password.get_secret_value())
 
         connect_btn = CONNECT_BUTTON.GetInvokePattern()
         connect_btn.Invoke()

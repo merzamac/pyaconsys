@@ -26,4 +26,5 @@ package-dir = "src"
 dev = [
     "python-dotenv>=1.2.1",
     "pytest>=8.4.2",
+    "dotenv>=0.9.9",
 ]
