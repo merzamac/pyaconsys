@@ -299,4 +299,4 @@ class MainWindow(TopLevelWindow):
         save_button = _tool_bar_to_save.ButtonControl(
             searchDepth=1, Name="Grabar compra local"
         )
-        # assert save_button.GetInvokePattern().Invoke()
+        assert save_button.GetInvokePattern().Invoke()
