@@ -1,5 +1,5 @@
 import time
-from datetime import datetime
+from datetime import date, datetime
 from time import sleep
 
 from uiautomation import SendKeys, WindowControl
@@ -210,13 +210,18 @@ class MainWindow(TopLevelWindow):
             searchDepth=1, AutomationId="3", foundIndex=1
         )
         receipt_type_edit = receipt_type_pane.EditControl(searchDepth=1, Name="")
-        # receipt_type_edit.Click()
         receipt_type_edit.SendKeys(receipt_type + "{ENTER}", interval=0.5)
 
         issue_date_edit = group_18.EditControl(
             searchDepth=1, ClassName="ImDateWndClass", foundIndex=3
         )
         issue_date_edit.SendKeys(issue_date)
+
+        due_date = date.today().strftime("%d/%m/%Y")
+        due_date_edit = group_18.EditControl(
+            searchDepth=1, ClassName="ImDateWndClass", foundIndex=1
+        )
+        due_date_edit.SendKeys(due_date)
 
         concept_type_pane = group_18.PaneControl(
             searchDepth=1, AutomationId="3", foundIndex=4
