@@ -291,7 +291,7 @@ class MainWindow(TopLevelWindow):
             deposit_date_edit.SendKeys(payment_date + "{TAB}" * 2 + "{ENTER}")
 
         _tool_bar_pane_2 = _record_puerchase_window.PaneControl(
-            searchDepth=1, ClassName="ToolBarWndClass", foundIndex=2
+            searchDepth=1, ClassName="ToolbarWndClass", foundIndex=2
         )
         _tool_bar_to_save = _tool_bar_pane_2.ToolBarControl(
             searchDepth=1, ClassName="ToolbarWindow32"
@@ -300,3 +300,8 @@ class MainWindow(TopLevelWindow):
             searchDepth=1, Name="Grabar compra local"
         )
         assert save_button.GetInvokePattern().Invoke()
+
+        clear_form_button = _tool_bar_to_save.ButtonControl(
+            searchDepth=1, Name="Nueva compra local"
+        )
+        clear_form_button.GetInvokePattern().Invoke()
