@@ -1,22 +1,16 @@
-from aconsys.views.login.window import LoginWindow
+from aconsys.views.login.window import LoginWindow as AconsysApp
+from keyring.credentials import Credential
+from .credential.manager import CredentialManager
+from datetime import date
 
 
-def test_go_to_compras_view(executable_file, username, password) -> None:
-    login_window = LoginWindow(executable_file)
-    main_window = login_window.login(username, password)
-    main_window.change_work_period()
-    main_window.register_purchase_one_by_one(
-        "01",
-        "20554144676",
-        "01",
-        "01",
-        "11/02/2025",
-        "CONCEPTO OC 429",
-        "F001",
-        "575",
-        "4211103",
-        "104.70",
-        True,
-        "001",
-        "10/11/2025",
-    )
+def test_go_to_compras_view(executable_file) -> None:
+    credentials: Credential = CredentialManager.get_credential(service_name="Aconsys")
+    with AconsysApp(executable_file, credentials) as app:
+        # app.change_work_period()
+        app.change_work_period()
+        _date = date.today()
+        accounting_window = app.accounting_entry_process_from_excel()
+        accounting_window.set_date_and_type_operation(_date, "99")
+        accounting_window.set_file_path("values")
+        accounting_window.get_validation()

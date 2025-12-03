@@ -6,6 +6,7 @@ from pydantic import SecretStr
 from ...base.window import TopLevelWindow
 from ..main.window import MainWindow
 from .controls import CONNECT_BUTTON, LOGIN_WINDOW, PASSWORD_EDIT, USERNAME_EDIT
+from keyring.credentials import Credential
 
 
 class LoginWindow(TopLevelWindow):
@@ -15,13 +16,26 @@ class LoginWindow(TopLevelWindow):
     _executable_file: Path
     _popen: Popen | None = None
 
-    def __init__(self, executable_file_path: Path | str) -> None:
+    def __init__(
+        self, executable_file_path: Path | str, credential: Credential
+    ) -> None:
         self._executable_file: Path = Path(executable_file_path)
         if not self._executable_file.is_file():
             raise ValueError("INVALID EXECUTABLE FILE PATH.")
+        self._credential = credential
+        self._popen: Popen
         return super().__init__()
 
-    def login(self, usename: str, password: SecretStr) -> MainWindow:
+    def __enter__(
+        self,
+    ) -> MainWindow:
+        return self.login(self._credential)
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        value = MainWindow()
+        ## eliminar el proceso aqui
+
+    def login(self, credential: Credential) -> MainWindow:
         """Login to ACONSYS."""
         if MainWindow.exists():
             return MainWindow()
@@ -32,10 +46,10 @@ class LoginWindow(TopLevelWindow):
         self.wait_for()
 
         username_edit = USERNAME_EDIT.GetValuePattern()
-        username_edit.SetValue(usename)
+        username_edit.SetValue(credential.username)
 
         password_edit = PASSWORD_EDIT.GetValuePattern()
-        password_edit.SetValue(password.get_secret_value())
+        password_edit.SetValue(credential.password)
 
         connect_btn = CONNECT_BUTTON.GetInvokePattern()
         connect_btn.Invoke()

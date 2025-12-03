@@ -1,6 +1,6 @@
 [project]
 name = "pyaconsys"
-version = "0.3.1"
+version = "0.3.2"
 description = "A Python wrapper for the Aconsys desktop application."
 authors = [
     {name = "CesarZHX", email = "112836949+CesarZHX@users.noreply.github.com"},
@@ -9,7 +9,7 @@ authors = [
 contributors = [
     {name = "soulLeo77", email = "176849955+soulLeo77@users.noreply.github.com"},
 ]
-dependencies = ["uiautomation>=2.0.29", "pydantic>=2.12.4"]
+dependencies = ["uiautomation>=2.0.29", "pydantic>=2.12.4", "keyring>=25.7.0"]
 requires-python = ">=3.12"
 readme = "README.md"
 license = {text = "Apache-2.0"}

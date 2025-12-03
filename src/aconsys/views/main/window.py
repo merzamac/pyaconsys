@@ -7,11 +7,16 @@ from uiautomation import SendKeys, WindowControl
 from ...base.window import TopLevelWindow
 from .controls import MAIN_WINDOW
 
+from ...views.accounting_entry.window import AccountingEntry
+
 
 class MainWindow(TopLevelWindow):
     """There are many elements here taht are only differentiated by AutomationId"""
 
     _window = MAIN_WINDOW
+
+    # def __init__(self) -> None:
+    #     self.change_work_period()
 
     def _navigate_to_menu_option(self, menu_name: str, option_name: str) -> None:
         """
@@ -30,6 +35,17 @@ class MainWindow(TopLevelWindow):
 
         option_item = menu_tables.MenuItemControl(searchDepth=1, Name=option_name)
         assert option_item.GetInvokePattern().Invoke()
+
+    def accounting_entry_process_from_excel(
+        self,
+    ) -> AccountingEntry:
+        self._navigate_to_menu_option("Procesos", "Asientos desde Excel")
+
+        pane_work_area = self._window.PaneControl(searchDepth=1, Name="Área de trabajo")
+        accounting_entry_process = pane_work_area.WindowControl(
+            searchDepth=1, Name="Proceso de Importación del Excel 2003"
+        )
+        return AccountingEntry(accounting_entry_process)
 
     def change_work_period(self):
         """

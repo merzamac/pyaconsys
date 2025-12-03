@@ -1,0 +1,128 @@
+2025-11-26 19:52:32.775 pydevd_safe_repr.py[343] _repr_obj -> 2025-11-26 20:00:20.493 pydevd_safe_repr.py[343] _repr_obj -> 2025-11-26 22:46:23.742 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {Name: 'Acceso al Sistema', ControlType: WindowControl}
+2025-11-26 22:46:33.781 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {Name: 'Acceso al Sistema', ControlType: WindowControl}
+2025-11-26 22:46:45.024 pydevd_safe_repr.py[343] _repr_obj -> 2025-11-26 23:19:37.683 window.py[52] change_work_period -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-26 23:19:48.463 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 03:11:15.204 window.py[62] change_work_period -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 03:11:26.055 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 03:53:36.131 window.py[67] change_work_period -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 03:53:46.755 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 16:51:55.551 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:52:43.839 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:52:53.908 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:53:03.924 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:53:13.939 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:53:23.952 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:53:33.966 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:53:43.979 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:53:53.992 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:54:04.006 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:54:14.018 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:54:24.031 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:54:34.045 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:54:44.058 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:54:54.071 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:55:04.084 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:55:14.098 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:55:24.111 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:55:34.124 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:55:44.137 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:55:54.152 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 16:56:04.165 pydevd_resolver.py[193] _get_py_dictionary -> 2025-11-27 17:02:25.319 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {ClassName: 'ImFrame3DWndClass', ControlType: PaneControl}
+2025-11-27 17:02:39.338 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ClassName: 'ImFrame3DWndClass', ControlType: PaneControl}
+2025-11-27 17:02:49.359 pydevd_resolver.py[193] _get_py_dictionary -> 2025-11-27 17:06:02.885 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 17:06:12.920 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 17:06:28.519 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: PaneControl}
+2025-11-27 17:06:38.532 pydevd_resolver.py[193] _get_py_dictionary -> 2025-11-27 17:41:56.704 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:42:06.746 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:42:16.765 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:42:32.341 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:42:42.358 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:42:52.371 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:43:02.383 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:43:12.395 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:43:22.407 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:43:32.429 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:43:42.446 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:43:52.459 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:44:02.470 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:44:12.484 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:44:22.495 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:44:32.508 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:44:42.520 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:44:52.535 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:45:02.552 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:45:12.565 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:45:22.586 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 17:45:32.601 pydevd_resolver.py[193] _get_py_dictionary -> 2025-11-27 18:04:53.713 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 18:05:03.739 pydevd_safe_repr.py[343] _repr_obj -> 2025-11-27 18:20:01.535 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 18:20:17.236 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 18:20:27.257 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 18:20:37.264 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 18:20:47.270 pydevd_resolver.py[193] _get_py_dictionary -> 2025-11-27 18:24:42.188 window.py[29] set_date_and_type_operation -> Find Control Timeout(10s): {Name: '2022', ControlType: ListItemControl}
+2025-11-27 18:24:54.299 window.py[68] change_work_period -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 18:25:04.938 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 18:25:15.385 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: '2022', ControlType: ListItemControl}
+2025-11-27 18:27:34.466 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {ControlType: ListControl}
+2025-11-27 18:27:54.437 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: ListControl}
+2025-11-27 18:28:04.448 pydevd_resolver.py[193] _get_py_dictionary -> 2025-11-27 18:50:51.628 window.py[29] set_date_and_type_operation -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 18:51:13.704 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 18:56:01.043 window.py[29] set_date_and_type_operation -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 18:56:18.288 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {ControlType: DocumentControl}
+2025-11-27 20:22:40.027 window.py[37] _navigate_to_menu_option -> Find Control Timeout(10s): {Name: 'Asientos desde Excel', ControlType: MenuItemControl}
+2025-11-27 20:23:01.263 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: 'Asientos desde Excel', ControlType: MenuItemControl}
+2025-11-27 21:01:24.933 window.py[68] change_work_period -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 21:01:35.697 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 21:12:41.449 window.py[68] change_work_period -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 21:12:53.478 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 21:19:28.585 window.py[68] change_work_period -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 21:19:40.756 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 21:23:59.812 window.py[68] change_work_period -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 21:24:10.582 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 22:04:55.733 window.py[68] change_work_period -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-27 22:05:06.509 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-28 00:35:56.624 window.py[68] change_work_period -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-28 00:36:07.331 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-28 00:57:03.844 window.py[68] change_work_period -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-28 00:57:14.535 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-28 00:59:41.648 window.py[68] change_work_period -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-28 00:59:52.312 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-28 01:07:52.839 window.py[68] change_work_period -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-28 01:08:03.490 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-28 01:08:13.558 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {Name: 'Configuraciones', ControlType: MenuControl}
+2025-11-28 01:09:06.243 pydevd_safe_repr.py[343] _repr_obj -> 2025-11-28 01:11:34.419 window.py[68] change_work_period -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-28 01:11:45.103 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-11-28 01:47:16.023 window.py[71] change_work_period -> 2025-11-28 20:13:34.419 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {ControlType: ButtonControl}
+2025-11-28 20:13:44.686 pydevd_safe_repr.py[343] _repr_obj -> 2025-11-28 20:40:05.496 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:40:15.720 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:40:41.559 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:40:51.648 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:41:01.685 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:41:15.837 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:41:26.018 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:41:36.294 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:41:46.579 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:41:56.872 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:42:07.154 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:42:17.442 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:42:27.527 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:42:37.889 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:42:48.174 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:42:58.464 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:43:08.473 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:43:18.805 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:43:29.116 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:43:39.475 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:43:49.860 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:44:00.193 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:44:10.509 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:44:20.837 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:44:31.178 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:44:41.511 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:44:51.843 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:45:02.191 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:45:12.642 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:45:22.977 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:45:33.329 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:45:43.658 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:45:54.024 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
+2025-11-28 20:46:04.378 pydevd_safe_repr.py[343] _repr_obj -> 
