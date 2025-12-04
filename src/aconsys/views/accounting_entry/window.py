@@ -20,14 +20,41 @@ class AccountingEntry:
             foundIndex=2,
         )
 
-    def _set_date(self, _date: date, group_control: GroupControl) -> None:
+    def _set_month(self, month: int, group_control: GroupControl) -> None:
         month_edit = group_control.EditControl(searchDepth=1)
+        spinner_control_month = group_control.SpinnerControl(
+            searchDepth=1, foundIndex=2
+        )
+        less_button = spinner_control_month.ButtonControl(
+            searchDepth=1, AutomationId="LessButton"
+        )
+        more_button = spinner_control_month.ButtonControl(
+            searchDepth=1, AutomationId="MoreButton"
+        )
+
+        current_value: int = int(str(month_edit.GetValuePattern().Value).strip())
+        previous_value: int
+        while current_value != month:
+            previous_value = current_value
+
+            if current_value > month:
+                less_button.Click(simulateMove=False)
+                sleep(0.3)
+                current_value = int(str(month_edit.GetValuePattern().Value).strip())
+            if current_value < month:
+                more_button.Click(simulateMove=False)
+                sleep(0.3)
+                current_value = int(str(month_edit.GetValuePattern().Value).strip())
+            if current_value == previous_value:
+                raise ValueError("imposible seleccionar el mes")
+
+    def _set_full_date(self, _date: date, group_control: GroupControl) -> None:
+
         date_edit = group_control.EditControl(searchDepth=1, foundIndex=2)
         year_select = group_control.PaneControl(searchDepth=1).EditControl(
             searchDepth=1
         )
 
-        month_edit.SendKeys(f"{_date.month:02d}")
         date_edit.SendKeys(_date.strftime("%d%m%Y"))
         year_select.SendKeys(str(_date.year))
         if not (year_select.GetValuePattern().Value.strip() == str(_date.year)):
@@ -39,7 +66,8 @@ class AccountingEntry:
         group_setting: GroupControl = self.pane_group2.GroupControl(
             searchDepth=1, foundIndex=2
         )
-        self._set_date(_date, group_setting)
+        self._set_full_date(_date, group_setting)
+        self._set_month(_date.month, group_setting)
         # type operation
         type_operation_select = group_setting.PaneControl(
             searchDepth=1, foundIndex=2
