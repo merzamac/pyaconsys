@@ -47,7 +47,7 @@ class MainWindow(TopLevelWindow):
         )
         return AccountingEntry(accounting_entry_process)
 
-    def change_work_period(self):
+    def change_work_period(self, date: date):
         """
         Abre 'Configuraciones -> Cambio Periodo de Trabajo' y selecciona el mes actual.
         """
@@ -76,16 +76,18 @@ class MainWindow(TopLevelWindow):
         panel_mes = ventana_mes.PaneControl(
             searchDepth=1, ClassName="ImFrame3DWndClass"
         )
-
+        self._window.SetTopmost(True)
         cuadro_mes = panel_mes.GroupControl(searchDepth=1, ClassName="ThunderRT6Frame")
 
         rellenar_cuadro = cuadro_mes.EditControl(searchDepth=1, AutomationId="3")
 
-        mes_actual = datetime.now().strftime("%m")
+        month_work_period = date.strftime("%m")
+        year_work_period = date.strftime("%Y")
 
-        rellenar_cuadro.GetValuePattern().SetValue(mes_actual)
+        rellenar_cuadro.GetValuePattern().SetValue(month_work_period)
 
         cuadro_año = cuadro_mes.EditControl(searchDepth=1, AutomationId="2")
+        cuadro_año.GetValuePattern().SetValue(year_work_period)
         cuadro_año.SetFocus()
         time.sleep(0.3)
 
