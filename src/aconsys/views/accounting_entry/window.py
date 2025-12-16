@@ -8,7 +8,8 @@ from uiautomation.uiautomation import (
 from uiautomation import WindowControl, Click
 from datetime import date
 from time import sleep
-from .error import get_error_message
+
+from aconsys.views.accounting_entry.error import get_error_message
 
 
 class AccountingEntry:
@@ -101,7 +102,7 @@ class AccountingEntry:
         result_table = self.pane_group1.PaneControl(
             searchDepth=3, ClassName="msvb_lib_header"
         )
-        assert result_table.Exists()
+        assert result_table.Exists(searchIntervalSeconds=7)
 
         return get_error_message(window_group)
 
@@ -123,7 +124,7 @@ class AccountingEntry:
         dir_edit: EditControl = self.pane_group1.GroupControl(
             searchDepth=1, foundIndex=2
         ).EditControl(searchDepth=1)
-        assert dir_edit.GetValuePattern().SetValue(file_path)
+        assert dir_edit.GetValuePattern().SetValue(value=file_path, waitTime=15)
 
 
 # ClassName:	"ImDateWndClass"
