@@ -79,7 +79,7 @@ class AccountingEntry:
         ):
             raise ValueError("Type of operation does not exist.")
 
-    def get_validation(self) -> None:
+    def get_validation(self) -> str:
         """el boton se accion por referencia en las coordenadas ya que no se logra conseguir el boton en uiautomatition
         Para lograrlo, se captura primero el Checkbox de reemplazar y de alli se calculan las coordenadas para los botones de validacion y procesar
         """
@@ -93,6 +93,17 @@ class AccountingEntry:
 
         Click(x=rectangle.xcenter(), y=rectangle.ycenter() + 55)
         # se gestiona la  validacion
+        window_group: GroupControl = self.pane_group1.GroupControl(
+            searchDepth=1, foundIndex=1
+        )
+        period_error: PaneControl = window_group.PaneControl(
+            searchDepth=1, RegexName=r"^Periodo[\s\S]*"
+        )
+        voucher_error: PaneControl = window_group.PaneControl(
+            searchDepth=1, RegexName=r"^Voucher[\s\S]*"
+        )
+        if period_error.Exists() or voucher_error.Exists():
+            return period_error.Name or voucher_error.Name
 
     def get_process_result(self) -> None:
         """se calcula la coordenadas del rectangulo de reemplazar y luego se calcula el boton de porcesar"""

@@ -125,4 +125,58 @@
 2025-11-28 20:45:33.329 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
 2025-11-28 20:45:43.658 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
 2025-11-28 20:45:54.024 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {ControlType: CheckBoxControl}
-2025-11-28 20:46:04.378 pydevd_safe_repr.py[343] _repr_obj -> 
+2025-11-28 20:46:04.378 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-15 14:22:18.104 window.py[68] change_work_period -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-12-15 14:22:28.893 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {Name: 'Cambio Periodo de Trabajo\tCtrl+I', ControlType: MenuItemControl}
+2025-12-15 14:24:31.442 window.py[100] get_validation -> Find Control Timeout(10s): {RegexName: '^Voucher', ControlType: PaneControl}
+2025-12-15 14:24:42.022 saferepr.py[73] repr_instance -> Find Control Timeout(10s): {RegexName: '^Voucher', ControlType: PaneControl}
+2025-12-15 14:30:09.996 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:30:26.968 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:30:37.033 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:30:47.048 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:30:57.068 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:31:07.084 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:31:17.102 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:31:27.118 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:31:37.138 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:31:47.154 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:31:57.173 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:32:07.196 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:32:17.212 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:32:27.228 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:32:37.243 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:32:47.263 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:32:57.279 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:33:07.298 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:33:17.315 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:33:27.333 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:33:37.351 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:33:47.368 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:33:57.386 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:34:07.402 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:34:17.418 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:34:27.433 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:34:37.466 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:34:47.484 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:34:57.502 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:35:07.517 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:35:17.533 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo', ControlType: PaneControl}
+2025-12-15 14:35:27.554 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-16 08:20:04.278 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:20:20.918 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:20:30.939 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:20:40.961 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:20:50.983 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:21:00.999 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:21:11.014 pydevd_resolver.py[193] _get_py_dictionary -> 2025-12-16 08:21:17.605 window.py[68] change_work_period -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:21:21.018 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:21:31.020 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:21:41.023 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:21:51.026 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:22:01.029 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:22:11.031 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:22:21.034 pydevd_resolver.py[193] _get_py_dictionary -> 2025-12-16 08:23:56.938 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:24:54.653 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:25:04.678 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:25:14.695 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:25:24.714 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:25:34.733 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
+2025-12-16 08:25:44.751 pydevd_resolver.py[193] _get_py_dictionary -> 
