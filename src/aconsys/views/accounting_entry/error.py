@@ -7,16 +7,16 @@ from uiautomation import SetGlobalSearchTimeout, Click
 SetGlobalSearchTimeout(5)
 
 
-def get_error_message(window_group: GroupControl) -> dict[str, str]:
+def get_error_message(window_group: GroupControl) -> str:
     """Retorna el mensaje de error si existe Periodo o Voucher"""
 
     # Patrones más específicos según lo que esperas
     patterns = (
-        (r"^Voucher_Exis[\s\S]*", "VOUCHER"),  # Limitar longitud
-        (r"^Periodo[\s\S]*", "PERIODO"),
-    )
+        r"^Voucher_Exis[\s\S]*",
+        r"^Periodo[\s\S]*",
+    )  # Limitar longitud
 
-    for pattern, error_type in patterns:
+    for pattern in patterns:
 
         control: PaneControl = window_group.PaneControl(
             searchDepth=1, RegexName=pattern
@@ -27,11 +27,7 @@ def get_error_message(window_group: GroupControl) -> dict[str, str]:
             rectangle = control.BoundingRectangle
 
             Click(x=rectangle.xcenter(), y=rectangle.ycenter() + 90)
-            return {
-                "error_type": error_type,
-                "dialog_text": control.Name,
-            }
 
-    return {
-        # empty dict
-    }
+            return control.Name
+
+    return ""
