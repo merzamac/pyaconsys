@@ -8,6 +8,7 @@ from uiautomation.uiautomation import (
 from uiautomation import WindowControl, Click
 from datetime import date
 from time import sleep
+from .error import get_error_message
 
 
 class AccountingEntry:
@@ -96,14 +97,13 @@ class AccountingEntry:
         window_group: GroupControl = self.pane_group1.GroupControl(
             searchDepth=1, foundIndex=1
         )
-        period_error: PaneControl = window_group.PaneControl(
-            searchDepth=1, RegexName=r"^Periodo[\s\S]*"
+        # ClassName:	"msvb_lib_header"
+        result_table = self.pane_group1.PaneControl(
+            searchDepth=3, ClassName="msvb_lib_header"
         )
-        voucher_error: PaneControl = window_group.PaneControl(
-            searchDepth=1, RegexName=r"^Voucher[\s\S]*"
-        )
-        if period_error.Exists() or voucher_error.Exists():
-            return period_error.Name or voucher_error.Name
+        assert result_table.Exists()
+
+        return get_error_message(window_group)
 
     def get_process_result(self) -> None:
         """se calcula la coordenadas del rectangulo de reemplazar y luego se calcula el boton de porcesar"""

@@ -179,4 +179,5 @@
 2025-12-16 08:25:14.695 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
 2025-12-16 08:25:24.714 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
 2025-12-16 08:25:34.733 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
-2025-12-16 08:25:44.751 pydevd_resolver.py[193] _get_py_dictionary -> 
+2025-12-16 08:25:44.751 pydevd_resolver.py[193] _get_py_dictionary -> 2025-12-16 10:44:58.300 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {ClassName: 'msvb_lib_header', ControlType: PaneControl}
+2025-12-16 10:45:10.654 pydevd_safe_repr.py[343] _repr_obj -> 
