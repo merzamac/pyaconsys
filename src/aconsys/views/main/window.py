@@ -4,10 +4,9 @@ from time import sleep
 
 from uiautomation import SendKeys, WindowControl
 
-from ...base.window import TopLevelWindow
-from .controls import MAIN_WINDOW
-
-from ...views.accounting_entry.window import AccountingEntry
+from aconsys.base.window import TopLevelWindow
+from aconsys.views.main.controls import MAIN_WINDOW
+from aconsys.views.accounting_entry.window import AccountingEntry
 
 
 class MainWindow(TopLevelWindow):
