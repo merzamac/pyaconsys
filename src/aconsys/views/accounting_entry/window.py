@@ -102,7 +102,7 @@ class AccountingEntry:
         result_table = self.pane_group1.PaneControl(
             searchDepth=3, ClassName="msvb_lib_header"
         )
-        assert result_table.Exists(searchIntervalSeconds=7)
+        assert result_table.Exists(searchIntervalSeconds=120)
 
         return get_error_message(window_group)
 

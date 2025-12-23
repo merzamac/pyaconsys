@@ -1,8 +1,9 @@
+from uiautomation.uiautomation import Click
 import time
 from datetime import date, datetime
 from time import sleep
 
-from uiautomation import SendKeys, WindowControl
+from uiautomation import SendKeys, WindowControl, Control, FindControl, MoveTo
 
 from aconsys.base.window import TopLevelWindow
 from aconsys.views.main.controls import MAIN_WINDOW
@@ -24,22 +25,35 @@ class MainWindow(TopLevelWindow):
         """
         self._window.SetActive()
         self._window.SetTopmost(True)
+        sleep(2.7)
+        menu_control = self._window.MenuControl(searchDepth=1)
+        # children = self._window.GetChildren()
+        # menu_bar = self._window.MenuBarControl(searchDepth=1, AutomationId="MenuBar")
 
-        menu_bar = self._window.MenuBarControl(searchDepth=1, AutomationId="MenuBar")
-
-        menu_item = menu_bar.MenuItemControl(searchDepth=1, Name=menu_name)
+        # menu_item = menu_bar.MenuItemControl(searchDepth=1, Name=menu_name)
+        menu_item = menu_control.MenuItemControl(searchDepth=1, Name=option_name)
         assert menu_item.GetInvokePattern().Invoke()
 
-        menu_tables = self._window.MenuControl(searchDepth=1, Name=menu_name)
+        # menu_tables = self._window.MenuControl(searchDepth=1, Name=menu_name)
 
-        option_item = menu_tables.MenuItemControl(searchDepth=1, Name=option_name)
-        assert option_item.GetInvokePattern().Invoke()
+        # option_item = menu_tables.MenuItemControl(searchDepth=1, Name=option_name)
+        # assert option_item.GetInvokePattern().Invoke()
 
     def accounting_entry_process_from_excel(
         self,
     ) -> AccountingEntry:
-        self._navigate_to_menu_option("Procesos", "Asientos desde Excel")
+        # self._navigate_to_menu_option("Procesos", "Asientos desde Excel")
 
+        toolbar_win = self._window.PaneControl(
+            searchDepth=1, ClassName="ToolbarWndClass"
+        ).PaneControl(searchDepth=1, ClassName="ImFrame3DWndClass")
+        rectangle_toolbar = toolbar_win.BoundingRectangle
+        # ycentrer = rectangle_toolbar.ycenter() - 40
+        # xcenter = rectangle_toolbar.xcenter()
+        Click(rectangle_toolbar.left, rectangle_toolbar.top - 25, waitTime=10)
+        MoveTo(rectangle_toolbar.left, rectangle_toolbar.top)
+
+        self._navigate_to_menu_option("Procesos", "Asientos desde Excel")
         pane_work_area = self._window.PaneControl(searchDepth=1, Name="Área de trabajo")
         accounting_entry_process = pane_work_area.WindowControl(
             searchDepth=1, Name="Proceso de Importación del Excel 2003"
@@ -55,23 +69,22 @@ class MainWindow(TopLevelWindow):
 
         self._window.SetActive()
         self._window.SetTopmost(True)
+        # menu_bar = self._window.MenuBarControl(searchDepth=1, AutomationId="MenuBar")
 
-        menu_bar = self._window.MenuBarControl(searchDepth=1, AutomationId="MenuBar")
+        # menu_item = menu_bar.MenuItemControl(searchDepth=1, Name=menu_name)
+        # assert menu_item.GetInvokePattern().Invoke()
 
-        menu_item = menu_bar.MenuItemControl(searchDepth=1, Name=menu_name)
-        assert menu_item.GetInvokePattern().Invoke()
+        # tablas_menu = self._window.MenuControl(searchDepth=1, Name=menu_name)
 
-        tablas_menu = self._window.MenuControl(searchDepth=1, Name=menu_name)
-
-        option_item = tablas_menu.MenuItemControl(searchDepth=1, Name=option_name)
-        assert option_item.GetInvokePattern().Invoke()
-
-        time.sleep(5)
-
+        # option_item = tablas_menu.MenuItemControl(searchDepth=1, Name=option_name)
+        # assert option_item.GetInvokePattern().Invoke()
         ventana_mes = self._window.WindowControl(
             searchDepth=1, Name="Cambio de Periodo de Trabajo"
         )
-
+        SendKeys("{Ctrl}i")
+        time.sleep(5)
+        if not ventana_mes.Exists():
+            raise ValueError('Window "Cambio de Periodo de Trabajo" not found')
         panel_mes = ventana_mes.PaneControl(
             searchDepth=1, ClassName="ImFrame3DWndClass"
         )

@@ -180,4 +180,208 @@
 2025-12-16 08:25:24.714 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
 2025-12-16 08:25:34.733 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(10s): {RegexName: '^Periodo[\\s\\S]*', ControlType: PaneControl}
 2025-12-16 08:25:44.751 pydevd_resolver.py[193] _get_py_dictionary -> 2025-12-16 10:44:58.300 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {ClassName: 'msvb_lib_header', ControlType: PaneControl}
-2025-12-16 10:45:10.654 pydevd_safe_repr.py[343] _repr_obj -> 
+2025-12-16 10:45:10.654 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-18 15:33:00.426 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-18 15:33:26.865 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:33:31.959 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 15:33:50.270 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 15:33:55.523 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 15:34:00.544 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 15:34:05.575 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 15:34:10.598 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 15:34:15.627 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 15:34:20.652 pydevd_resolver.py[193] _get_py_dictionary -> 2025-12-18 15:34:24.712 window.py[62] change_work_period -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 15:34:25.677 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 15:34:30.697 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 15:34:35.716 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 15:34:40.738 pydevd_resolver.py[193] _get_py_dictionary -> 2025-12-18 15:35:03.668 window.py[62] change_work_period -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 15:35:09.222 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:35:14.238 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 15:36:36.945 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:36:41.974 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:36:47.003 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:36:52.026 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:36:57.057 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:37:02.074 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:37:07.092 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:37:12.116 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:37:17.133 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:37:22.153 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:37:27.187 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:37:32.207 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:37:37.229 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:37:42.253 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:37:47.273 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:37:52.291 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:37:57.312 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:38:02.333 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:38:07.350 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:38:12.382 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:38:17.405 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:38:22.426 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:38:27.448 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:38:32.466 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:38:37.492 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:38:42.508 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:38:47.529 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:38:52.548 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:38:57.573 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:39:02.592 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:39:07.620 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:43:32.688 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-18 15:55:03.758 window.py[62] change_work_period -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 15:55:09.954 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 15:55:14.974 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 16:06:52.616 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:06:57.663 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:07:02.700 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:07:07.727 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:07:12.745 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:07:17.765 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:07:22.786 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:07:27.808 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:07:32.837 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:07:37.856 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:07:42.876 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:07:47.896 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:07:52.914 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:07:57.934 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:08:02.958 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:08:07.976 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:08:13.002 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:08:18.022 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:08:23.041 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:08:28.059 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:08:33.079 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:08:38.096 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:08:43.120 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:08:48.139 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:08:53.159 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:08:58.202 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:09:03.222 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:09:08.240 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:09:13.259 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:09:18.277 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:09:23.307 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-18 16:20:40.961 window.py[62] change_work_period -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 16:20:46.611 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:20:51.639 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-18 16:49:35.661 window.py[62] change_work_period -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 16:49:41.151 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:49:46.180 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-18 16:50:47.375 window.py[62] change_work_period -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 16:50:52.863 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:50:57.886 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-18 16:52:45.352 window.py[62] change_work_period -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 16:52:50.842 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 16:52:55.875 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-18 16:55:13.856 window.py[62] change_work_period -> 2025-12-18 17:03:41.764 window.py[62] change_work_period -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 17:03:47.936 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-18 17:03:52.957 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {Name: 'Configuraciones', ControlType: MenuItemControl}
+2025-12-18 17:07:33.359 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-23 10:22:05.621 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {Name: 'Procesos'}
+2025-12-23 10:22:19.576 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos'}
+2025-12-23 10:22:24.978 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos'}
+2025-12-23 10:22:30.597 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos'}
+2025-12-23 10:22:36.357 pydevd_resolver.py[193] _get_py_dictionary -> 2025-12-23 13:07:47.383 window.py[32] _navigate_to_menu_option -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:07:52.922 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:07:57.942 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:08:04.643 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:09:27.356 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:09:32.430 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:09:37.462 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:09:42.486 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:09:47.513 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:09:52.535 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:09:57.558 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:10:02.580 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:10:07.602 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:10:12.621 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:10:17.639 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:10:22.657 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:10:27.675 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:10:32.695 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:10:37.714 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:10:42.731 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:10:47.752 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:10:52.772 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:10:57.810 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:11:02.829 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:11:07.856 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:11:12.875 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:11:17.892 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:11:22.913 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:11:27.934 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:11:32.953 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:11:37.973 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:11:42.991 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:11:48.010 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:11:53.028 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:11:58.050 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-23 13:13:33.580 window.py[33] _navigate_to_menu_option -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:13:39.160 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:13:44.191 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:13:49.213 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:14:51.214 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-23 13:16:22.167 window.py[33] _navigate_to_menu_option -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:16:27.842 saferepr.py[73] repr_instance -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:17:05.837 window.py[33] _navigate_to_menu_option -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:17:11.374 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:17:16.390 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {ControlType: MenuControl}
+2025-12-23 13:17:21.407 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:18:14.591 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:18:19.610 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:18:24.633 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:18:29.654 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:18:34.672 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:18:39.692 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:18:44.720 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:18:49.743 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:18:54.763 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:18:59.782 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:19:04.802 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:19:09.819 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:19:14.837 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:19:19.854 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:19:24.876 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:19:29.894 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:19:34.913 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:19:39.931 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:19:44.949 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:19:49.970 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:19:54.987 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:20:00.036 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:20:05.056 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:20:10.083 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:20:15.105 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:20:20.125 pydevd_resolver.py[193] _get_py_dictionary -> 2025-12-23 13:21:36.034 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:21:41.068 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {ControlType: MenuControl}
+2025-12-23 13:21:46.087 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:22:42.789 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:22:47.813 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:22:52.831 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:22:58.256 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-23 13:23:20.964 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:23:25.999 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {ControlType: MenuControl}
+2025-12-23 13:23:31.015 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-23 13:24:06.729 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:24:11.775 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:27:18.488 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:27:57.573 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:28:02.602 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:28:07.621 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:28:12.641 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:28:17.661 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:28:22.681 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:28:27.700 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:28:32.720 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:28:37.738 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:28:42.758 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:28:47.778 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:28:52.796 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:28:57.818 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:29:02.838 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:29:07.858 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:29:12.878 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:29:17.900 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:29:22.919 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:29:27.937 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:29:32.963 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:29:37.981 pydevd_resolver.py[193] _get_py_dictionary -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuItemControl}
+2025-12-23 13:29:43.001 pydevd_resolver.py[193] _get_py_dictionary -> 2025-12-23 13:30:20.786 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {AutomationId: 'MenuBar', ControlType: MenuBarControl}
+2025-12-23 13:31:41.931 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-23 13:37:21.054 window.py[35] _navigate_to_menu_option -> 2025-12-23 13:38:59.929 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuControl}
+2025-12-23 13:39:04.970 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-23 16:18:49.698 window.py[40] _navigate_to_menu_option -> Find Control Timeout(5s): {Name: 'Asientos desde Excel', ControlType: MenuItemControl}
+2025-12-23 16:18:55.466 saferepr.py[73] repr_instance -> Find Control Timeout(5s): {Name: 'Asientos desde Excel', ControlType: MenuItemControl}
+2025-12-23 16:22:41.888 window.py[40] _navigate_to_menu_option -> Find Control Timeout(5s): {Name: 'Asientos desde Excel', ControlType: MenuItemControl}
+2025-12-23 16:22:47.602 saferepr.py[73] repr_instance -> Find Control Timeout(5s): {Name: 'Asientos desde Excel', ControlType: MenuItemControl}
+2025-12-23 16:25:59.868 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-23 16:28:02.739 window.py[40] _navigate_to_menu_option -> Find Control Timeout(5s): {Name: 'Asientos desde Excel', ControlType: MenuItemControl}
+2025-12-23 16:28:08.293 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {Name: 'Procesos', ControlType: MenuControl}
+2025-12-23 16:28:13.310 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {Name: 'Asientos desde Excel', ControlType: MenuItemControl}
+2025-12-23 16:29:47.862 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-23 16:31:25.906 pydevd_safe_repr.py[343] _repr_obj -> 
