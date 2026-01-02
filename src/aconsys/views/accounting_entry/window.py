@@ -1,3 +1,5 @@
+from multiprocessing.sharedctypes import Value
+from unicodedata import name
 from pathlib import Path
 from uiautomation.uiautomation import (
     PaneControl,
@@ -10,6 +12,7 @@ from datetime import date
 from time import sleep
 
 from aconsys.views.accounting_entry.error import get_error_message
+from aconsys.views.utils.controls import wait_control_exist
 
 
 class AccountingEntry:
@@ -95,6 +98,7 @@ class AccountingEntry:
 
         Click(x=rectangle.xcenter(), y=rectangle.ycenter() + 55)
         # se gestiona la  validacion
+
         window_group: GroupControl = self.pane_group1.GroupControl(
             searchDepth=1, foundIndex=1
         )
@@ -102,9 +106,21 @@ class AccountingEntry:
         result_table = self.pane_group1.PaneControl(
             searchDepth=3, ClassName="msvb_lib_header"
         )
-        assert result_table.Exists(searchIntervalSeconds=120)
+        validation_dialog = WindowControl(Name="ACONSYS", searchDepth=2)
+        wait_control_exist(result_table)
 
-        return get_error_message(window_group)
+        error = get_error_message(window_group)
+        if error:
+            return error
+
+        wait_control_exist(validation_dialog)
+        if validation_dialog.Exists():
+            text = validation_dialog.TextControl(searchDepth=1).Name
+            validation_dialog.ButtonControl(Name="Aceptar", searchDepth=1).Click(
+                simulateMove=False
+            )
+            return text
+        raise ValueError("Something wrong validation error")
 
     def get_process_result(self) -> None:
         """se calcula la coordenadas del rectangulo de reemplazar y luego se calcula el boton de porcesar"""

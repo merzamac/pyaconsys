@@ -1,3 +1,4 @@
+from random import randint
 from uiautomation.uiautomation import (
     PaneControl,
     GroupControl,
