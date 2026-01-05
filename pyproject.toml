@@ -1,6 +1,7 @@
 [project]
 name = "pyaconsys"
-version = "0.4.2"
+version = "0.4.3
+"
 description = "A Python wrapper for the Aconsys desktop application."
 authors = [
     {name = "CesarZHX", email = "112836949+CesarZHX@users.noreply.github.com"},
