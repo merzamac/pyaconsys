@@ -15,6 +15,7 @@ def get_error_message(window_group: GroupControl) -> str:
     patterns = (
         r"^Voucher_Exis[\s\S]*",
         r"^Periodo[\s\S]*",
+        r"^No_Cuadra_MN[\s\S]*",
     )  # Limitar longitud
 
     for pattern in patterns:
