@@ -3,7 +3,7 @@ import time
 from datetime import date, datetime
 from time import sleep
 
-from uiautomation import SendKeys, WindowControl, Control, FindControl, MoveTo
+from uiautomation import SendKeys, WindowControl, MoveTo
 
 from aconsys.base.window import TopLevelWindow
 from aconsys.views.main.controls import MAIN_WINDOW

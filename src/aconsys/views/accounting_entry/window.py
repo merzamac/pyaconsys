@@ -1,5 +1,3 @@
-from multiprocessing.sharedctypes import Value
-from unicodedata import name
 from pathlib import Path
 from uiautomation.uiautomation import (
     PaneControl,
