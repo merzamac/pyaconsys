@@ -113,6 +113,7 @@ class AccountingEntry:
 
         wait_control_exist(validation_dialog)
         if validation_dialog.Exists():
+            validation_dialog.SetFocus()
             text = validation_dialog.TextControl(searchDepth=1).Name
             validation_dialog.ButtonControl(Name="Aceptar", searchDepth=1).Click(
                 simulateMove=False
