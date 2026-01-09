@@ -428,4 +428,12 @@
 2025-12-29 11:57:59.496 pydevd_resolver.py[193] _get_py_dictionary -> 2025-12-29 12:55:15.329 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {ClassName: 'msvb_lib_header', ControlType: PaneControl}
 2025-12-29 12:55:20.409 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-29 12:57:24.253 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {ClassName: 'msvb_lib_header', ControlType: PaneControl}
 2025-12-29 12:57:29.355 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-29 13:09:23.531 pydevd_safe_repr.py[343] _repr_obj -> Find Control Timeout(5s): {ClassName: 'msvb_lib_header', ControlType: PaneControl}
-2025-12-29 13:09:28.618 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-29 13:13:58.243 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-29 13:17:19.983 pydevd_safe_repr.py[343] _repr_obj -> 
+2025-12-29 13:09:28.618 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-29 13:13:58.243 pydevd_safe_repr.py[343] _repr_obj -> 2025-12-29 13:17:19.983 pydevd_safe_repr.py[343] _repr_obj -> 2026-01-08 19:47:29.333 window.py[135] get_process_result -> Find Control Timeout(5s): {Name: 'Sí', ControlType: ButtonControl}
+2026-01-08 19:47:35.195 saferepr.py[73] repr_instance -> Find Control Timeout(5s): {Name: 'Sí', ControlType: ButtonControl}
+2026-01-08 19:52:17.151 window.py[35] _navigate_to_menu_option -> Find Control Timeout(5s): {Name: 'Asientos desde Excel', ControlType: MenuItemControl}
+2026-01-08 19:52:22.770 saferepr.py[73] repr_instance -> Find Control Timeout(5s): {Name: 'Asientos desde Excel', ControlType: MenuItemControl}
+2026-01-08 19:54:17.190 window.py[135] get_process_result -> Find Control Timeout(5s): {Name: 'Sí', ControlType: ButtonControl}
+2026-01-08 19:54:23.193 saferepr.py[73] repr_instance -> Find Control Timeout(5s): {Name: 'Sí', ControlType: ButtonControl}
+2026-01-08 19:59:10.680 window.py[135] get_process_result -> Find Control Timeout(5s): {Name: 'Sí', ControlType: ButtonControl}
+2026-01-08 19:59:21.484 saferepr.py[73] repr_instance -> Find Control Timeout(5s): {Name: 'Sí', ControlType: ButtonControl}
+2026-01-09 10:16:36.344 pydevd_safe_repr.py[343] _repr_obj -> 

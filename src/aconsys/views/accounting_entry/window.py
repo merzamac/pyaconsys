@@ -87,29 +87,30 @@ class AccountingEntry:
         Para lograrlo, se captura primero el Checkbox de reemplazar y de alli se calculan las coordenadas para los botones de validacion y procesar
         """
         check_box_reference: CheckBoxControl = self.pane_group2.CheckBoxControl(
-            searchDepth=1, foundIndex=1
+            searchDepth=1, Name="Reemplazar"
         )
 
         rectangle = check_box_reference.BoundingRectangle
         # validar: y debe ser ese valor  mas 55
         # procesar: y debe ser ese valor  mas 125
-
-        Click(x=rectangle.xcenter(), y=rectangle.ycenter() + 55)
+        yvalue: int = rectangle.ycenter() + 55
+        Click(x=rectangle.xcenter(), y=yvalue)
         # se gestiona la  validacion
 
         window_group: GroupControl = self.pane_group1.GroupControl(
             searchDepth=1, foundIndex=1
         )
-        # ClassName:	"msvb_lib_header"
-        result_table = self.pane_group1.PaneControl(
-            searchDepth=3, ClassName="msvb_lib_header"
+        result_table = (
+            self.pane_group1.GroupControl(searchDepth=1, AutomationId="2")
+            .PaneControl(searchDepth=1, ClassName="ListView20WndClass")
+            .PaneControl(searchDepth=1, ClassName="msvb_lib_header")
         )
         validation_dialog = WindowControl(Name="ACONSYS", searchDepth=2)
         wait_control_exist(result_table)
 
         error = get_error_message(window_group)
         if error:
-            return error
+            return error.replace(" ", "").lower()
 
         wait_control_exist(validation_dialog)
         if validation_dialog.Exists():
@@ -118,19 +119,30 @@ class AccountingEntry:
             validation_dialog.ButtonControl(Name="Aceptar", searchDepth=1).Click(
                 simulateMove=False
             )
-            return text
+            return text.replace(" ", "").lower()
         raise ValueError("Something wrong validation error")
 
-    def get_process_result(self) -> None:
+    def process(self) -> None:
         """se calcula la coordenadas del rectangulo de reemplazar y luego se calcula el boton de porcesar"""
         check_box_reference: CheckBoxControl = self.pane_group2.CheckBoxControl(
             searchDepth=1, foundIndex=1
         )
 
         rectangle = check_box_reference.BoundingRectangle
-
-        Click(x=rectangle.xcenter(), y=rectangle.ycenter() + 125)
+        yvalue: int = rectangle.ycenter() + 115
+        Click(x=rectangle.xcenter(), y=yvalue)
         ## se obtienen el resultado
+        data_confirm_window = WindowControl(Name="Confirmar datos", searchDepth=2)
+        wait_control_exist(data_confirm_window)
+        data_confirm_window.ButtonControl(Name="Sí", searchDepth=1).Click(
+            simulateMove=False
+        )
+        done_window = WindowControl(Name="ACONSYS", searchDepth=2)
+        wait_control_exist(done_window)
+
+        assert done_window.ButtonControl(Name="Aceptar", searchDepth=1).Click(
+            simulateMove=False
+        )
 
     def set_file_path(self, file_path: str | Path) -> None:
         if isinstance(file_path, Path):

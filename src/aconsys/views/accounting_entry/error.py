@@ -16,6 +16,7 @@ def get_error_message(window_group: GroupControl) -> str:
         r"^Voucher_Exis[\s\S]*",
         r"^Periodo[\s\S]*",
         r"^No[\s\S]*",
+        r"^Dub[\s\S]*",
     )  # Limitar longitud
 
     for pattern in patterns:
@@ -24,7 +25,7 @@ def get_error_message(window_group: GroupControl) -> str:
             searchDepth=1, RegexName=pattern
         )
 
-        if control.Exists():
+        if control.Exists(maxSearchSeconds=1):
             # Extraer información relevante
             rectangle = control.BoundingRectangle
 
