@@ -110,7 +110,7 @@ class AccountingEntry:
 
         error = get_error_message(window_group)
         if error:
-            return error.replace(" ", "").lower()
+            return error
 
         wait_control_exist(validation_dialog)
         if validation_dialog.Exists():
@@ -119,7 +119,7 @@ class AccountingEntry:
             validation_dialog.ButtonControl(Name="Aceptar", searchDepth=1).Click(
                 simulateMove=False
             )
-            return text.replace(" ", "").lower()
+            return text
         raise ValueError("Something wrong validation error")
 
     def process(self) -> None:
