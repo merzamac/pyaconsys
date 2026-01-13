@@ -116,13 +116,13 @@ class AccountingEntry:
         if validation_dialog.Exists():
             validation_dialog.SetFocus()
             text = validation_dialog.TextControl(searchDepth=1).Name
-            validation_dialog.ButtonControl(Name="Aceptar", searchDepth=1).Click(
-                simulateMove=False
-            )
+            validation_dialog.ButtonControl(
+                Name="Aceptar", searchDepth=1
+            ).GetInvokePattern().Invoke()
             return text
         raise ValueError("Something wrong validation error")
 
-    def process(self) -> None:
+    def get_process_result(self) -> str:
         """se calcula la coordenadas del rectangulo de reemplazar y luego se calcula el boton de porcesar"""
         check_box_reference: CheckBoxControl = self.pane_group2.CheckBoxControl(
             searchDepth=1, foundIndex=1
@@ -134,15 +134,16 @@ class AccountingEntry:
         ## se obtienen el resultado
         data_confirm_window = WindowControl(Name="Confirmar datos", searchDepth=2)
         wait_control_exist(data_confirm_window)
-        data_confirm_window.ButtonControl(Name="Sí", searchDepth=1).Click(
-            simulateMove=False
-        )
+        data_confirm_window.ButtonControl(
+            Name="Sí", searchDepth=1
+        ).GetInvokePattern().Invoke()
         done_window = WindowControl(Name="ACONSYS", searchDepth=2)
         wait_control_exist(done_window)
-
-        assert done_window.ButtonControl(Name="Aceptar", searchDepth=1).Click(
-            simulateMove=False
-        )
+        message = done_window.TextControl(searchDepth=1).Name
+        done_window.ButtonControl(
+            Name="Aceptar", searchDepth=1
+        ).GetInvokePattern().Invoke()
+        return message
 
     def set_file_path(self, file_path: str | Path) -> None:
         if isinstance(file_path, Path):
