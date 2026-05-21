@@ -1,8 +1,7 @@
+from time import sleep
 from pathlib import Path
 from subprocess import Popen
-
-from pydantic import SecretStr
-
+from aconsys.views.select_company.window import SelectionCompanyWindow
 from ...base.window import TopLevelWindow
 from ..main.window import MainWindow
 from .controls import CONNECT_BUTTON, LOGIN_WINDOW, PASSWORD_EDIT, USERNAME_EDIT
@@ -28,14 +27,14 @@ class LoginWindow(TopLevelWindow):
 
     def __enter__(
         self,
-    ) -> MainWindow:
+    ) -> SelectionCompanyWindow:
         return self.login(self._credential)
 
     def __exit__(self, exc_type, exc_val, exc_tb):
-        value = MainWindow()
+        value = SelectionCompanyWindow()
         ## eliminar el proceso aqui
 
-    def login(self, credential: Credential) -> MainWindow:
+    def login(self, credential: Credential) -> SelectionCompanyWindow | MainWindow:
         """Login to ACONSYS."""
         if MainWindow.exists():
             return MainWindow()
@@ -58,5 +57,5 @@ class LoginWindow(TopLevelWindow):
             raise RuntimeError(
                 "Error in login. Incorrect password or username. Or the window not responding."
             )
-
-        return MainWindow()
+        sleep(5)
+        return MainWindow() if MainWindow().exists() else SelectionCompanyWindow()

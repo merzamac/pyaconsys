@@ -38,3 +38,8 @@ def username() -> str:
 def password() -> SecretStr:
     """Password for the Aconsys server."""
     return SecretStr(environ["ACONSYS_PASSWORD"])
+
+
+@fixture(scope="session")
+def tesseract() -> Path:
+    return Path(r"C:\Program Files\Tesseract-OCR\tesseract.exe")
