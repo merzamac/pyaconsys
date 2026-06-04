@@ -43,8 +43,9 @@ class SelectionCompanyWindow(TopLevelWindow):
                 image_source=img_to_ndarry(screenshot)
             )
             # 2. Limpieza de texto
-            temp = "".join(c for c in raw_text if c.isalpha() or c.isspace())
-            company_selected = " ".join(temp.split())
+            #temp = "".join(c for c in raw_text if c.isalpha() or c.isspace())
+            temp = (raw_text.lstrip("0123456789").rstrip())
+            company_selected  = temp.upper().replace(" ","")
             # A. ¿Es la empresa que buscamos?
             if company_selected == company_name:
                 SendKeys("{ENTER}")

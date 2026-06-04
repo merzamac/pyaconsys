@@ -21,9 +21,6 @@ def test_select() -> None:
     credentials: Credential = CredentialManager.get_credential(service_name="Aconsys")
     with AconsysApp(executable_file, credentials) as app:
         if not isinstance(app, MainWindow):
-            app = app.select_company("BIJOU", tesseract)
-        app.change_work_period(date(2026, 3, 30))
+            app = app.select_company("BIJOU-2020", tesseract)
+        
 
-        app.download_centro_costos_file(
-            r"C:\Users\Administrador\Desktop\centro aqui\cento_costo.pdf"
-        )
