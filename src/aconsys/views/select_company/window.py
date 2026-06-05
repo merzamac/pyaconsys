@@ -33,10 +33,9 @@ class SelectionCompanyWindow(TopLevelWindow):
         ocr_tool: PyOcr = PyOcr(engine=tesseract)
 
         last_company_detected = ""
-
         while True:
             SendKeys("{DOWN}")
-            sleep(0.5)
+            sleep(5)
             # 1. Captura y OCR
             screenshot: Image = take_screenshot(companies_area)
             raw_text: str = ocr_tool.process_selected_row(
@@ -45,7 +44,8 @@ class SelectionCompanyWindow(TopLevelWindow):
             # 2. Limpieza de texto
             #temp = "".join(c for c in raw_text if c.isalpha() or c.isspace())
             temp = (raw_text.lstrip("0123456789").rstrip())
-            company_selected  = temp.upper().replace(" ","")
+            temp  = temp.upper().replace(" ","")
+            company_selected = temp.upper().replace("BIJOL","BIJOU")
             # A. ¿Es la empresa que buscamos?
             if company_selected == company_name:
                 SendKeys("{ENTER}")
